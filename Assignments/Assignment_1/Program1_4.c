@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
-//  Function Name  :    Display
-//  Description    :   Display numbers from 5 to 1 
-//  Input          :    Integer , Integer
-//  Output         :    Integer
+//  Function Name  :    Check
+//  Description    :    Check Whether the Number is Divisible by 5 or not 
+//  Input          :    Integer 
+//  Output         :    Boolean
 //  Author         :    Keskar Sanika Subhash
 //  Date           :    19/10/2026
 ///////////////////////////////////////////////////////////////////////////////////////////////////
