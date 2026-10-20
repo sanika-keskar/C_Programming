@@ -32,3 +32,9 @@ This folder contains five basic C programs practiced to understand functions, lo
 
 These programs help build a strong foundation in C programming by practicing basic logic, loops, conditions, and functions.
 
+## Author
+Keskar Sanika Subhash
+
+## Date
+20/10/2026
+
