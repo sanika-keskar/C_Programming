@@ -1,4 +1,4 @@
-# C Programming – Assignment 3
+# C Programming – Assignment 5
 
 ## Description
 This repository contains five C programs that demonstrate functions, pointers, conditional statements, relational operators, and character handling.
