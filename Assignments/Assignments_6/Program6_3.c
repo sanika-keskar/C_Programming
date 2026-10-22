@@ -6,8 +6,6 @@
 //  Author         :    Keskar Sanika Subhash
 //  Date           :    22/10/2026
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,7 +35,8 @@ void CalculateDiscount(float fAmount)
     {
         fFinalAmount = fAmount - (fAmount * fDiscount / 100);
 
-        printf("Payable Amount = %.2f\n", fFinalAmount);
+        printf("Payable Amount = %
+            f\n", fFinalAmount);
     }
 }
 
