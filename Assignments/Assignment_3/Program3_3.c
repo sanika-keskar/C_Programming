@@ -7,28 +7,43 @@
 //  Date           :    22/10/2026
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//  Function Name  :    DisplayFactor 
+//  Description    :    Accept one number from user and print  even factors of that numbers 
+//  Input          :    Integer 
+//  Output         :    Integer
+//  Author         :    Keskar Sanika Subhash
+//  Date           :    22/10/2026
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
 #include <stdio.h>
 
-void DisplayConvert(char ch)
+void DisplayFactor(int iNo)
 {
-    if (ch >= 'a' && ch <= 'z')
+    int i = 0;
+
+    if (iNo <= 0)
     {
-        printf("%c", ch - 32);
+        iNo = -iNo;
     }
-    else if (ch >= 'A' && ch <= 'Z')
+
+    for (i = 1; i <= iNo; i++)
     {
-        printf("%c", ch + 32);
+        if ((iNo % i == 0) && (i % 2 == 0))
+        {
+            printf("%d ", i);
+        }
     }
 }
 
 int main()
 {
-    char CValue = '\0';
+    int iValue = 0;
 
-    printf("Enter Character\n");
-    scanf("%c", &CValue);
+    printf("Enter Number\n");
+    scanf("%d", &iValue);
 
-    DisplayConvert(CValue);
+    DisplayFactor(&iValue);
 
     return 0;
 }
