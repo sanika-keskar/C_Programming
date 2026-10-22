@@ -29,5 +29,6 @@ int main()
     scanf("%d",&iValue);
 
     CheckEvenOdd(iValue);
-    return 0;
+    return EXIT_SUCCESS
+        ;
 }
