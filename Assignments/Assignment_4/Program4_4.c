@@ -2,7 +2,7 @@
 //  Function Name  :    CheckVotingEligibility
 //  Description    :    Check Voting Eligibility
 //  Input          :    Integer
-//  Output         :    Integer
+//  Output         :    String 
 //  Author         :    Keskar Sanika Subhash
 //  Date           :    22/10/2026
 ///////////////////////////////////////////////////////////////////////////////////////////////////
