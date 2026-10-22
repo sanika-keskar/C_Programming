@@ -1,4 +1,4 @@
-# C Programming – Basic Function Programs
+# C Programming – Assignment No 2
 
 This folder contains five basic C programs practiced to understand functions, loops, conditional statements, and return types.
 
